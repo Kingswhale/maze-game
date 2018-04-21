@@ -10,24 +10,37 @@ We are always open to [your feedback](https://github.com/facebookincubator/creat
 After creation, your project should look like this:
 
 ```
-my-app/
+maze-game/
   README.md
-  index.html
-  favicon.ico
-  node_modules/
-  package.json
+  public/
+    index.hmtl
+    favicon.ico
+    manifest.json
   src/
     App.css
     App.js
+    App.test.js
+    Board.js
+    Cell.js
+    Game.js
+    afeez.png
+    flower.jpg
     index.css
     index.js
     logo.svg
+    registerServiceWorker.js
+    utils.js
+  .gitignore
+  README.md
+  package-lock.json
+  package.json
+  yarn.lock
 ```
 
 For the project to build, **these files must exist with exact filenames**:
 
-* `index.html` is the page template;
-* `favicon.ico` is the icon you see in the browser tab;
+* `public/index.html` is the page template;
+* `public/favicon.ico` is the icon you see in the browser tab;
 * `src/index.js` is the JavaScript entry point.
 
 You can delete or rename the other files.
