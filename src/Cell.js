@@ -1,6 +1,6 @@
 import React from 'react';
-import mario from './mario.png';
-import mushroom from './mushroom.png';
+import afeez from './afeez.png';
+import flower from './flower.jpg';
 
 const style = ({ size, cell }) => {
     const dim = size + 'px';
@@ -12,10 +12,10 @@ const style = ({ size, cell }) => {
         transition: 'all 0.1s ease'
     };
     if(cell.value === 'fruit'){
-        style.backgroundImage = `url(${mushroom})`;
+        style.backgroundImage = `url(${flower})`;
     } 
     if(cell.value === 'player') {
-        style.backgroundImage = `url(${mario})`;        
+        style.backgroundImage = `url(${afeez})`;        
     }
 
     return style;

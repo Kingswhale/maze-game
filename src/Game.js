@@ -146,7 +146,7 @@ class Game extends Component {
         { !gameStart &&
             (
                 <div>    
-                    <p className="App-intro">Please input the board width and height to start the game</p>
+                    <p className="App-intro">Input the board width and height to start the game</p>
                     <input type="number" placeholder="Board Width" onChange={this.inputChanged('width')} /> X 
                     <input onChange={this.inputChanged('height')} type="number" placeholder="Board Height" />
                     <hr />
