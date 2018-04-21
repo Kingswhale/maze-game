@@ -11,7 +11,6 @@ After creation, your project should look like this:
 
 ```
 maze-game/
-  README.md
   public/
     index.hmtl
     favicon.ico
